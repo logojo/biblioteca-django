@@ -1,0 +1,9 @@
+<h1>Libros por categorias</h1>
+
+<ul>
+    
+    {% for libro in  libros %}
+        <li>{{ libro.titulo }} - {{ libro.fecha }}</li>
+    {% endfor %}
+        
+</ul>
